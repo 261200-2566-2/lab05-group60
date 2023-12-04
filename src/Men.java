@@ -404,7 +404,7 @@ public class Men implements Character{
             System.out.printf("%2s %2s %2s %2s%n",this.Name,"Defense lower than",women.Name,"Attack");
         }
 
-        System.out.printf("    %2s %2s  %n","The difference of attacks is: ",String.format("%.2f", this.damageTaken));
+        System.out.printf("    %2s %2s  %n","The difference of defend is: ",String.format("%.2f", this.damageTaken));
         System.out.printf("╚══❖══════════════════⚔\uFE0F══════════════════❖══╝\n%n");
 
     }
