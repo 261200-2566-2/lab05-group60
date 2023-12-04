@@ -407,7 +407,7 @@ public class Women implements Character{
             System.out.printf("%2s %2s %2s %2s%n",this.Name,"Defense lower than",men.Name,"Attack");
         }
 
-        System.out.printf("    %2s %2s  %n","The difference of attacks is: ",this.damageTaken);
+        System.out.printf("    %2s %2s  %n","The difference of defend is: ",this.damageTaken);
         System.out.printf("╚══❖══════════════════⚔\uFE0F══════════════════❖══╝\n%n");
 
     }
